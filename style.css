@@ -1,0 +1,91 @@
+/* CSS files add styling rules to your content */
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Comfortaa'; font-size: 50px;
+  color: #34495E;
+  background-color: #80C0C0;
+  padding: 10px;
+}
+
+h3{
+  font-family: 'Comfortaa'; font-size: 30px; 
+  margin: 20px
+}
+
+#hello {
+  background-color: #F44336;
+  display: flex; 
+  justify-content: center;
+  height: 50px;
+  border-radius: 20px;
+  padding-top:20px;
+  font-family: 'Comfortaa'; font-size: 30px; 
+  color: #FFFA9A;
+  
+}
+
+.header {
+  background: url(https://cdn.glitch.com/c0752390-0a84-44b2-ae20-606e3ea41eef%2Fretrocss.jpg?v=1597184755308);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 0px;
+}
+
+#split{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#main {
+  border-radius: 50px;
+  border-style: inset;
+  border-width: 5px;
+  padding: 5px;
+  max-height:50%;
+  max-width: 50%;
+}
+
+#intro {
+  text-align: center;
+  background-color: white;
+  border-width: 20px;
+  border-style: solid;
+  border-color: white;
+  max-width: 50%;
+  border-radius: 50px;
+  font-family: 'Comfortaa'; font-size: 1em; 
+  display:flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0px;
+  background-color: #EB984E;
+  border-radius: 20px;
+}
+
+li {
+  font-family: 'Comfortaa';font-size: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #6D655A;
+}
+a:hover{
+  opacity: 70%;
+}
+
+
