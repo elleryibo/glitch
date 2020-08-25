@@ -1,48 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Home</title>
-    
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-    
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
+  </head>
   <body>
-    <!--Intro portion of webpage-->
-    <div class="header">    
-      <h1 id="name">
-        Hi, I'm Ellery!
-      </h1>
-      <div id= "split">
-        <img id="main" src="https://cdn.glitch.com/c0752390-0a84-44b2-ae20-606e3ea41eef%2FIMG_0075.jpg?v=1597087193060" alt="Hi, I'm Ellery!" width="300">
-        <p id="intro">
-          Hi everyone! I'm a rising junior from Herricks High School. I like skateboarding, doodling, and film photography. I think coding is pretty cool, and I'm excited to participate in SIP this year. :)
-        </p>
+    <h1>Find out what element you bend by planning a trip to NYC!</h1>
+
+    <h2>Where will you be staying during your trip?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FbrooklynBNB.jpg?v=1597264613552"
+        />
+        <br />
+        <button id="q1a1">An Airbnb in Brooklyn</button>
       </div>
-      <h3 id="hello">
-        Nice to meet you!
-      </h3>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FmanhattanSUITE.jpg?v=1597264598083"
+        />
+        <br />
+        <button id="q1a2">A 5-star hotel in Manhattan</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FqueensINN.jpg?v=1597264588671"
+        />
+        <br />
+        <button id="q1a3">A small inn in Queens</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FstatenAPT.jpg?v=1597264575958"
+        />
+        <br />
+        <button id="q1a4">A relative's house in Staten Island</button>
+      </div>
     </div>
-    <!--links to navigate website-->
-    <nav>
-      <ul>
-        <li id="li1"><a href="https://ellery-ibo.glitch.me/index.html">Home</a></li>
-        <li id="li2"><a href="https://ellery-ibo.glitch.me/portfolio.html">Portfolio</a></li>
-        <li id="li3"><a href="https://ellery-ibo.glitch.me/blog.html">Blog</a></li>
-      </ul>
-    </nav>
 
+    <h2>Pick an activity for the day:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FtheMET.jpg?v=1597266064235"
+        />
+        <br />
+        <button id="q2a1">Exploring The MET</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FSOHO.jpg?v=1597266073361"
+        />
+        <br />
+        <button id="q2a2">Shopping in Soho</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2Fskate.jpg?v=1597266054840"
+        />
+        <br />
+        <button id="q2a3">Skateboarding through Williamsburg</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2FcentralPark.jpg?v=1597266082033"
+        />
+        <br />
+        <button id="q2a4">Strolling around Central Park</button>
+      </div>
+    </div>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    <h2>Find a spot to eat:</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2Fgourmet.jpg?v=1597266557358"
+        />
+        <br />
+        <button id="q3a1">A gourmet restaurant</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2Flocal.jpg?v=1597266565719"
+        />
+        <br />
+        <button id="q3a2">A local restaurant</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2Fbar.jpg?v=1597266574583"
+        />
+        <br />
+        <button id="q3a3">A cozy bar</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/26c23d95-a120-420d-ae98-effbc5398b84%2Fstreet.jpg?v=1597266541834"
+        />
+        <br />
+        <button id="q3a4">A street food cart</button>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 id="result">You are a . . . . .</h2>
+      <button id="restart">
+        <a href="https://what-bender-are-you.glitch.me">restart</a>
+      </button>
+    </div>
   </body>
 </html>

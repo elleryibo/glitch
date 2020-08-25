@@ -1,91 +1,131 @@
 /* CSS files add styling rules to your content */
 
+body {
+  margin: 2em;
+}
+
 h1 {
+  font-family: "Raleway";
+  text-align: center;
+  background-color: #9C7A9E;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid;5px;gray;
+}
+
+h2 {
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 2em; 
+}
+
+.question {
   display: flex;
-  justify-content: space-around;
-  font-family: 'Comfortaa'; font-size: 50px;
-  color: #34495E;
-  background-color: #80C0C0;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 10em;
+  border-radius: 30px;
+  border: outset; 5px; 
+}
+
+.question{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button{
+  font-family: "Raleway";
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
   padding: 10px;
 }
 
-h3{
-  font-family: 'Comfortaa'; font-size: 30px; 
-  margin: 20px
+#q1a1, #q2a1, #q3a1{
+  margin-left: 45px;
+  background-color: #ABC8FF;
 }
 
-#hello {
-  background-color: #F44336;
-  display: flex; 
-  justify-content: center;
-  height: 50px;
-  border-radius: 20px;
-  padding-top:20px;
-  font-family: 'Comfortaa'; font-size: 30px; 
-  color: #FFFA9A;
-  
+#q1a2, #q2a2, #q3a2{
+  margin-left: 55px;
+  background-color: #97D97E ;
 }
 
-.header {
-  background: url(https://cdn.glitch.com/c0752390-0a84-44b2-ae20-606e3ea41eef%2Fretrocss.jpg?v=1597184755308);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  margin: 0px;
+#q1a3{
+  margin-left: 55px;
+  background-color: #E67A7A;
 }
 
-#split{
+#q2a3{
+  background-color: #E67A7A;
+}
+
+#q3a3{
+  margin-left: 80px;
+  background-color: #E67A7A;
+}
+
+#q1a4{
+  background-color: #FFD765;
+}
+
+#q2a4{
+  margin-left: 15px;
+  background-color: #FFD765;
+}
+
+#q3a4{
+  margin-left: 60px;
+  background-color: #FFD765;
+}
+
+button:hover{
+  opacity: 80%
+}
+
+.result{
   display: flex;
   justify-content: center;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
-#main {
-  border-radius: 50px;
-  border-style: inset;
-  border-width: 5px;
-  padding: 5px;
-  max-height:50%;
-  max-width: 50%;
-}
-
-#intro {
-  text-align: center;
-  background-color: white;
-  border-width: 20px;
-  border-style: solid;
-  border-color: white;
-  max-width: 50%;
-  border-radius: 50px;
-  font-family: 'Comfortaa'; font-size: 1em; 
-  display:flex;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-  list-style-type: none;
-  margin: 0px;
-  background-color: #EB984E;
+  flex-direction: column;
+  background-color: #D4D4D4;
   border-radius: 20px;
+  margin-top: 40px;
+  font-style: italic;
 }
 
-li {
-  font-family: 'Comfortaa';font-size: 20px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
+#restart{
+  font-size: 2em;
+  background-color: #FF5A5A;
 }
 
-a{
+a:link, a:visited{
+  color: white;
   text-decoration: none;
-  color: #6D655A;
 }
-a:hover{
-  opacity: 70%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
